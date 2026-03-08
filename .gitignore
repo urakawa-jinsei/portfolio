@@ -1,5 +1,33 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode
+# Bundler cache
+.bundle
+vendor
+Gemfile.lock
+
+# Jekyll cache
+.jekyll-cache
+.jekyll-metadata
+_site
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Misc
+_sass/vendors
+assets/js/dist
+
+# Created by https://www.toptal.com/developers/gitignore/api/macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos
 
 ### macOS ###
 # General
@@ -34,23 +62,4 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
-
-# Local History for Visual Studio Code
-.history/
-
-# Built Visual Studio Code Extensions
-*.vsix
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
-
-# End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/macos

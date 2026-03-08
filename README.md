@@ -1,142 +1,84 @@
-# 浦川 仁成 - Portfolio Website
+<!-- markdownlint-disable-next-line -->
+<div align="center">
 
-モダンでリッチなアニメーションを持つ、バックエンドエンジニアのポートフォリオサイトです。
+  <!-- markdownlint-disable-next-line -->
+  # Chirpy Jekyll Theme
 
-🌐 **Live Site**: [https://urakawa-jinsei.github.io](https://urakawa-jinsei.github.io)
+  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 
-## ✨ Features
+  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
+  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
+  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
+  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
+  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
 
-- **モダンなダークテーマ**: 目に優しいダークモードをベースにしたデザイン
-- **リッチなアニメーション**: パーティクル背景、タイピングエフェクト、スクロールアニメーション
-- **カスタムカーソル**: デスクトップでのインタラクティブなカーソルエフェクト
-- **レスポンシブデザイン**: すべてのデバイスで最適な表示
-- **Zenn記事連携**: Zenn APIから最新記事を自動取得・表示
-- **SEO最適化**: メタタグ、OGP設定済み
+  [**Live Demo** →][demo]
 
-## 📁 Project Structure
+  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
 
-```
-.
-├── index.html          # メインHTMLファイル
-├── css/
-│   └── style.css       # スタイルシート
-├── js/
-│   └── main.js         # JavaScript
-├── images/
-│   └── icon.png        # プロフィールアイコン
-└── README.md           # このファイル
-```
+</div>
 
-## 🛠️ Technologies Used
+## Features
 
-- **HTML5**: セマンティックなマークアップ
-- **CSS3**: カスタムプロパティ、Flexbox、Grid、アニメーション
-- **Vanilla JavaScript**: フレームワークなしのピュアJS
-- **Google Fonts**: Inter, Noto Sans JP
-- **Font Awesome**: アイコン
-- **Devicons**: スキルアイコン
+- Dark Theme
+- Localized UI language
+- Pinned Posts on Home Page
+- Hierarchical Categories
+- Trending Tags
+- Table of Contents
+- Last Modified Date
+- Syntax Highlighting
+- Mathematical Expressions
+- Mermaid Diagrams & Flowcharts
+- Dark Mode Images
+- Embed Media
+- Comment Systems
+- Built-in Search
+- Atom Feeds
+- PWA
+- Web Analytics
+- SEO & Performance Optimization
 
-## 🚀 Getting Started
+## Documentation
 
-### ローカルで実行
+To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
 
-1. リポジトリをクローン
-```bash
-git clone https://github.com/urakawa-jinsei/urakawa-jinsei.github.io.git
-cd urakawa-jinsei.github.io
-```
+## Contributing
 
-2. ローカルサーバーを起動
+Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
+to learn, inspire, and create. Any contributions you make are greatly appreciated.
+For details, see the "[Contributing Guidelines][contribute-guide]".
 
-**Python 3の場合:**
-```bash
-python3 -m http.server 8000
-```
+## Credits
 
-**Node.jsの場合:**
-```bash
-npx serve
-```
+### Contributors
 
-**VS Code Live Serverの場合:**
-VS Codeで `index.html` を開き、右クリック → 「Open with Live Server」
+Thanks to [all the contributors][contributors] involved in the development of the project!
 
-3. ブラウザでアクセス
-```
-http://localhost:8000
-```
+[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
+<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
 
-### GitHub Pagesでのホスティング
+### Third-Party Assets
 
-1. リポジトリ名を `<username>.github.io` 形式にする
-2. メインブランチにプッシュ
-3. Settings → Pages → Source を「Deploy from a branch」に設定
-4. Branch を「main」、フォルダを「/ (root)」に設定
-5. 数分後に `https://<username>.github.io` でアクセス可能
+This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
 
-## 📝 Sections
+The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
 
-| セクション | 説明 |
-|-----------|------|
-| **Hero** | プロフィール画像とタイピングエフェクト付きの自己紹介 |
-| **About** | 自己PR、統計情報 |
-| **Experience** | 経歴（タイムライン形式） |
-| **Skills** | 技術スキル（プログレスバー付き） |
-| **Certifications** | 資格情報 |
-| **Articles** | Zennの最新記事（API連携） |
-| **Output** | SNS・メディアリンク |
+## License
 
-## 🔗 External APIs
+This project is published under [MIT License][license].
 
-- **Zenn API**: `https://zenn.dev/api/articles?username=urakawa_jinsei&order=latest`
-  - 最新3記事を取得して表示
-
-## 🎨 Customization
-
-### カラーテーマの変更
-
-`css/style.css` の `:root` セクションでCSS変数を変更:
-
-```css
-:root {
-    --color-accent-primary: #6366f1;    /* メインアクセントカラー */
-    --color-accent-secondary: #8b5cf6;  /* セカンダリカラー */
-    --color-accent-tertiary: #a855f7;   /* ターシャリカラー */
-}
-```
-
-### タイピングテキストの変更
-
-`js/main.js` の `initTypingEffect` 関数内の配列を編集:
-
-```javascript
-const texts = [
-    'Backend Engineer',
-    'Go Developer',
-    'Java Developer',
-    // ... 追加・変更
-];
-```
-
-## 📱 Browser Support
-
-- Chrome (Latest)
-- Firefox (Latest)
-- Safari (Latest)
-- Edge (Latest)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👤 Author
-
-**浦川 仁成 (Urakawa Jinsei)**
-
-- Zenn: [@urakawa_jinsei](https://zenn.dev/urakawa_jinsei)
-- GitHub: [@urakawa-jinsei](https://github.com/urakawa-jinsei)
-- X: [@jins8urakawa](https://x.com/jins8urakawa)
-
----
-
-⭐ このリポジトリが参考になれば、スターをいただけると嬉しいです！
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
+[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
+[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
+[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
+[jekyllrb]: https://jekyllrb.com/
+[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
+[demo]: https://cotes2020.github.io/chirpy-demo/
+[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
+[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
+[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
+[lib]: https://github.com/cotes2020/chirpy-static-assets
+[vscode]: https://code.visualstudio.com/
+[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
