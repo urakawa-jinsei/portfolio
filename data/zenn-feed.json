@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-01-30T04:40:20.741365+00:00",
+  "last_updated": "2026-03-08T09:30:37.221408+00:00",
   "articles": [
+    {
+      "title": "AI時代のテスト戦略：Goで学ぶプロパティベーステストの実践",
+      "url": "https://zenn.dev/urakawa_jinsei/articles/02738de240b008",
+      "path": "/urakawa_jinsei/articles/02738de240b008",
+      "published_at": "2026-03-03T23:00:02+00:00",
+      "summary": "tl;dr プロパティベーステストは「具体的な値」ではなく「性質（property）」を検証するテスト手法です。 AI駆動開発では「実装の正しさ」ではなく「振る舞いの制約」をテストすることが重要です。 Go標準ライブラリの testing/quick を使うと、ランダム入力による性質検証が簡単に可能です。 Go 1.18以降では testing.F によるネイティブFuzzingも利用可能です。 AIが生成したコードに対して「壊れない仕様」を与えることで、安全に高速実装できます。 はじめに AI駆動開発をしていて、こんなことはありませんか？ AIが書いたコードは一見正しそう...",
+      "emoji": "📝",
+      "liked_count": 0
+    },
+    {
+      "title": "powerlevel10kでかっこいいターミナルを作る",
+      "url": "https://zenn.dev/urakawa_jinsei/articles/dccd3dcfa0dc0e",
+      "path": "/urakawa_jinsei/articles/dccd3dcfa0dc0e",
+      "published_at": "2026-03-01T23:00:01+00:00",
+      "summary": "powerlevel10kのイメージ tl;dr powerlevel10k を使うと、Gitブランチや実行時間を表示するリッチなプロンプトを簡単に実現できます。 MesloLGS NF フォントをインストールし、ターミナルに設定することが重要です。 Homebrewでインストールし、.zshrc に設定を追記するだけで導入可能です。 p10k configure を実行すれば、対話形式で自分好みのテーマを設定できます。 はじめに 「ターミナルが地味でテンションが上がらない…」と思ったことはありませんか？ 日々の開発で多くの時間を過ごすターミナル環境を整えることは、生産...",
+      "emoji": "📝",
+      "liked_count": 0
+    },
+    {
+      "title": "My Habits as a Software Engineer",
+      "url": "https://zenn.dev/urakawa_jinsei/articles/cca0275033ec4c",
+      "path": "/urakawa_jinsei/articles/cca0275033ec4c",
+      "published_at": "2026-02-25T10:00:01+00:00",
+      "summary": "tl;dr ポッドキャスト・YouTube・テックブログ・SNSなど、カテゴリ別に使うメディアを決めると情報収集が楽になります 「移動中」「隙間時間」「まとまった時間」など、時間帯ごとに習慣を紐づけるのがポイントです Connpassでイベントに参加すると、技術書や記事だけでは得られないリアルなインプットが得られます Duolingo＋インターナショナルバーの組み合わせで、英語のインプットとアウトプットを両立できます この記事を読むと、自分の生活リズムに合った習慣の候補が見つかるかもしれません はじめに エンジニアとして成長し続けるために「何かしら習慣をつけたい」と思いつつ、...",
+      "emoji": "📝",
+      "liked_count": 0
+    },
+    {
+      "title": "インデックス以外でできるDBパフォーマンスチューニング入門",
+      "url": "https://zenn.dev/urakawa_jinsei/articles/4077d617f2fcae",
+      "path": "/urakawa_jinsei/articles/4077d617f2fcae",
+      "published_at": "2026-02-12T23:00:06+00:00",
+      "summary": "tl;dr インデックスだけに頼らないDBパフォーマンスチューニング手法を整理します パーティション、ヒント句、パラレルクエリ、オンメモリという4つの代表的手段を解説します それぞれの概要・具体例・メリットとデメリットを把握できます 適切な使いどころと注意点がわかり、実務での選択肢が広がります はじめに DBのパフォーマンスチューニングというと、まず「インデックスを張る」ことを思い浮かべる方が多いのではないでしょうか。 もちろんインデックスは非常に重要ですが、それだけでは解決できないケースも少なくありません。 本記事では、達人に学ぶDB設計徹底指南書 第2版 を参照しつつ、イ...",
+      "emoji": "📝",
+      "liked_count": 0
+    },
+    {
+      "title": "DIコンテナとは？依存関係を整理してGoの設計をシンプルにする方法",
+      "url": "https://zenn.dev/urakawa_jinsei/articles/8908855bfba0ab",
+      "path": "/urakawa_jinsei/articles/8908855bfba0ab",
+      "published_at": "2026-02-09T23:00:02+00:00",
+      "summary": "tl;dr DI（Dependency Injection）は、依存関係を外から注入することでコードの責務を分離する設計手法です DIコンテナは、依存関係の生成と解決を自動化する仕組みを提供します uber-go/dig を使うことで、GoでもシンプルにDIを導入できます DIコンテナを使うと、newの連鎖をなくし、テストしやすい構造を実現できます はじめに Goでアプリケーションを書いていると、次のようなコードに心当たりはありませんか？ main関数でnewが大量に並んでいる 依存関係が増えるたびに引数が増えていく テストを書こうとするとモック差し替えが大変 こうした課...",
+      "emoji": "📝",
+      "liked_count": 0
+    },
+    {
+      "title": "【翻訳&まとめ】The complete guide to building skills for Claude",
+      "url": "https://zenn.dev/urakawa_jinsei/articles/d7f59cbc0db612",
+      "path": "/urakawa_jinsei/articles/d7f59cbc0db612",
+      "published_at": "2026-02-02T10:00:01+00:00",
+      "summary": "tl;dr Anthropic公式ドキュメント「The Complete Guide to Building Skills for Claude」を詳細に翻訳・要約しています Claude Code / Claude.ai で利用できる Skillの設計・構造・テスト・配布方法が体系的に理解できます YAML frontmatterの書き方や、Skillが「いつ起動するか」を制御する設計思想がわかります MCP（Model Context Protocol）とSkillを組み合わせた高度なワークフロー設計が理解できます 読了後には、再利用可能でトリガー精度の高いSkillを自分で作...",
+      "emoji": "📝",
+      "liked_count": 0
+    },
     {
       "title": "B-Tree Indexアンチパターン",
       "url": "https://zenn.dev/urakawa_jinsei/articles/19805983ee2dfc",
@@ -124,60 +178,6 @@
       "path": "/urakawa_jinsei/articles/4f4807ca5b70c0",
       "published_at": "2025-12-21T07:25:23+00:00",
       "summary": "はじめに 「毎日忙しく働いているのに、なぜか成長している実感がない」と感じたことはありませんか？ 私自身、エンジニアとして数年働く中で、この違和感を強く感じた時期がありました。 この記事では、人が成長する唯一の方法は「危機感を感じること」であるというテーマについて、エンジニアのキャリア文脈で整理していきます。 技術的なチュートリアルではありませんが、日々の学習や環境選択に悩んでいる方にとって、何かしらのヒントになれば幸いです。 なお、本記事の着想は、以下のPodcastで語られていた内容に強く影響を受けています。 あわせてぜひ聴いてみてください。 https://podcasts.a...",
-      "emoji": "📝",
-      "liked_count": 0
-    },
-    {
-      "title": "なぜAPIに冪等性が必要なのか？設計から実装までを整理する",
-      "url": "https://zenn.dev/urakawa_jinsei/articles/576e4736cda25e",
-      "path": "/urakawa_jinsei/articles/576e4736cda25e",
-      "published_at": "2025-12-18T23:00:06+00:00",
-      "summary": "はじめに APIを実装していると、「同じリクエストが複数回送られてきたらどうなるのか？」と疑問に思ったことはありませんか？ 特に、決済処理やユーザー登録のような失敗が許されないAPIでは、この問題は非常に重要です。 本記事では、APIに冪等性を追加する方法について、概念の整理からデータベース設計、実際のAPIの流れまでを段階的に解説していきます。 冪等性とは何か 冪等性（Idempotency）の定義 冪等性とは、「同じ操作を何度実行しても、結果が変わらない性質」を指します。 これは数学や関数型プログラミング由来の概念ですが、Web APIの設計においても非常に重要です。 つ...",
-      "emoji": "📝",
-      "liked_count": 0
-    },
-    {
-      "title": "PostgreSQLのパフォーマンスチューニング入門: インデックスの威力を体感せよ",
-      "url": "https://zenn.dev/urakawa_jinsei/articles/e20e1f76f5109f",
-      "path": "/urakawa_jinsei/articles/e20e1f76f5109f",
-      "published_at": "2025-09-09T23:00:06+00:00",
-      "summary": "はじめに データベースのパフォーマンスチューニングって難しそう…と思っていませんか？ 今回は、シーケンシャルスキャン（Seq Scan）になっているクエリをインデックススキャン（Index Scan）に変えることで、クエリを劇的に高速化する手順を実測値つきでまとめます。 途中で実行計画の読み方やParallel Seq Scan / Gatherのポイントも押さえます。 EXPLAIN ANALYZE は計測オーバーヘッドが乗るので、素の実行より遅くなることがあります。数値は目安として見てください。(PostgreSQL) 環境構築（Docker） docker-comp...",
-      "emoji": "📝",
-      "liked_count": 0
-    },
-    {
-      "title": "【Go】コードの読み方を学ぶ - strings.Joinを題材に",
-      "url": "https://zenn.dev/urakawa_jinsei/articles/8706c1ccb50c97",
-      "path": "/urakawa_jinsei/articles/8706c1ccb50c97",
-      "published_at": "2025-08-26T23:00:01+00:00",
-      "summary": "はじめに Go の標準ライブラリには、効率や安全性に配慮された設計が随所に見られます。 今回は、その中でもよく使われる strings.Join を題材に、「コードをどう読み解けばよいか」を順に見ていきます。 背景・目的 例えば、このようなコードがあります。 // Join concatenates the elements of its first argument to create a single string. // The separator string sep is placed between elements in the resulting string. ...",
-      "emoji": "📝",
-      "liked_count": 0
-    },
-    {
-      "title": "Makefile入門｜Goで学ぶ、はじめてのMakefile",
-      "url": "https://zenn.dev/urakawa_jinsei/articles/a21e93692ca715",
-      "path": "/urakawa_jinsei/articles/a21e93692ca715",
-      "published_at": "2025-08-19T23:00:06+00:00",
-      "summary": "はじめに Goでプログラムを書いていると、 go build go run go test …など、毎回同じコマンドを入力するのが面倒になることありませんか？ そんなときに便利なのが Makefile です。 公式ドキュメントでは「依存関係に応じて必要な処理だけを実行するツール」と説明されていますが、Goプロジェクトに限って言えば 「よく使うコマンドをまとめておける便利な仕組み」 と考えるとわかりやすいです。 最小のMakefileを書いてみる まずはGoで「Hello, World」を出力するプログラムを作りましょう。 main.go package main impo...",
-      "emoji": "📝",
-      "liked_count": 0
-    },
-    {
-      "title": "【Go】複数のCloud Run Jobsをモノレポで管理する",
-      "url": "https://zenn.dev/urakawa_jinsei/articles/07da4bf827c73a",
-      "path": "/urakawa_jinsei/articles/07da4bf827c73a",
-      "published_at": "2025-08-07T23:00:01+00:00",
-      "summary": "はじめに 本記事のゴール モノレポ構成でJobごとのディレクトリを整理 Dockerマルチステージビルドでバイナリを効率的に生成 Cloud Buildのループ処理でCI/CDを自動化 ディレクトリ構成 ディレクトリ構成 . ├── cloudbuild.yaml ├── cmd │ ├── cloud-run-jobs1 │ │ ├── Dockerfile │ │ └── main.go │ ├── cloud-run-jobs2 │ │ ├── Dockerfile │ │ └── main.go │ └── cloud...",
-      "emoji": "📝",
-      "liked_count": 0
-    },
-    {
-      "title": "【Go】sqlcでbulk insertをする方法",
-      "url": "https://zenn.dev/urakawa_jinsei/articles/065cc07cc1ad05",
-      "path": "/urakawa_jinsei/articles/065cc07cc1ad05",
-      "published_at": "2025-08-06T23:00:01+00:00",
-      "summary": "はじめに 大量データを一括で挿入したい場面は多いのではないでしょうか？ 例えばバッチ処理で数百万件のデータを扱うとき、通常のINSERT文を1件ずつ実行すると、ネットワーク往復やトランザクションオーバーヘッドで処理時間が膨大になります。 PostgreSQLが提供するCOPYプロトコルを利用したbulk insert（まとめて挿入）を使うことで、シーケンシャルなINSERTと比べて数十倍〜数百倍の高速化が可能です。 Go向けORMツールのsqlcでは、コメントに:copyfromを付与するだけでこのCOPYプロトコルを簡単に利用できます。[1] 結論 SQLファイルのコメントに:...",
       "emoji": "📝",
       "liked_count": 0
     }
